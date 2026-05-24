@@ -1,11 +1,17 @@
 import cors from "cors";
+import dotenv from "dotenv";
 import express from "express";
 import rateLimit from "express-rate-limit";
 import helmet from "helmet";
 import morgan from "morgan";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
 import orderRoutes from "./routes/orderRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+dotenv.config({ path: resolve(__dirname, "../.env") });
 
 const app = express();
 
