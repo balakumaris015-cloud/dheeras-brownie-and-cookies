@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-label="Choco Fudge Brownie">
+  <rect width="720" height="540" fill="#fff2df"/>
+  <ellipse cx="360" cy="430" rx="245" ry="45" fill="#5b3525" opacity=".16"/>
+  <rect x="170" y="135" width="380" height="260" rx="34" fill="#2b1714"/>
+  <path d="M170 196h380v166c0 18-15 33-33 33H203c-18 0-33-15-33-33Z" fill="#3d211b"/>
+  <path d="M197 161c102 42 212-47 324 4" fill="none" stroke="#865334" stroke-width="35" stroke-linecap="round"/>
+  <circle cx="280" cy="258" r="13" fill="#c38958"/>
+  <circle cx="410" cy="220" r="15" fill="#c38958"/>
+  <circle cx="462" cy="310" r="12" fill="#c38958"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-label="Walnut Brownie">
+  <rect width="720" height="540" fill="#fff7e9"/>
+  <ellipse cx="360" cy="420" rx="245" ry="48" fill="#6e4129" opacity=".16"/>
+  <rect x="158" y="150" width="405" height="238" rx="38" fill="#392017"/>
+  <path d="M182 176h357v84H182Z" fill="#4a2a1d"/>
+  <g fill="#d2ad76">
+    <path d="M249 226c-20-10-22-35-2-47 16-10 39 2 42 22 3 19-20 35-40 25Z"/>
+    <path d="M388 207c-15-21 3-46 27-40 22 5 31 34 13 50-12 11-30 6-40-10Z"/>
+    <path d="M471 296c-22-7-28-34-9-48 17-13 44 1 44 24 0 17-16 30-35 24Z"/>
+    <path d="M300 318c-20 12-45-5-42-28 3-24 34-35 51-17 13 14 8 35-9 45Z"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-label="Red Velvet Cookie">
+  <rect width="720" height="540" fill="#fff3e6"/>
+  <ellipse cx="360" cy="418" rx="220" ry="48" fill="#612b2e" opacity=".16"/>
+  <circle cx="360" cy="270" r="152" fill="#9d2235"/>
+  <path d="M234 270c18-83 85-136 169-128 71 7 119 56 128 128-46-11-82-2-108 25-31 33-80 33-118 2-20-17-44-26-71-27Z" fill="#bd3b4f"/>
+  <g fill="#fff2dc">
+    <circle cx="312" cy="221" r="16"/>
+    <circle cx="413" cy="255" r="14"/>
+    <circle cx="348" cy="338" r="17"/>
+    <circle cx="465" cy="326" r="12"/>
+  </g>
+</svg>

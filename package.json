@@ -1,0 +1,15 @@
+{
+  "name": "dheeras-brownie-and-cookies",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full-stack e-commerce app for Dheera's Brownie and Cookies.",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

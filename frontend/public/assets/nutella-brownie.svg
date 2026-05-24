@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-label="Nutella Brownie">
+  <rect width="720" height="540" fill="#fff5e5"/>
+  <ellipse cx="360" cy="420" rx="250" ry="48" fill="#56311f" opacity=".16"/>
+  <rect x="155" y="145" width="410" height="248" rx="38" fill="#2f1914"/>
+  <path d="M185 221c48-42 99 35 151-7 60-49 105 44 172-13" fill="none" stroke="#c17a42" stroke-width="42" stroke-linecap="round"/>
+  <path d="M214 304c84-36 155 37 269-16" fill="none" stroke="#f2d0a1" stroke-width="18" stroke-linecap="round" opacity=".75"/>
+  <circle cx="492" cy="151" r="32" fill="#d99a2b"/>
+  <circle cx="492" cy="151" r="16" fill="#fff2da"/>
+</svg>

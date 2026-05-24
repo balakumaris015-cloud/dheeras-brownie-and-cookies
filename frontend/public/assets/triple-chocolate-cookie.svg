@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-label="Triple Chocolate Cookie">
+  <rect width="720" height="540" fill="#fff1df"/>
+  <ellipse cx="360" cy="414" rx="232" ry="52" fill="#5f3524" opacity=".15"/>
+  <circle cx="360" cy="270" r="155" fill="#9b613b"/>
+  <path d="M228 235c43-62 121-94 199-69 82 26 109 103 91 168-36-35-71-43-105-24-42 23-87 17-111-18-18-26-41-43-74-57Z" fill="#b87645"/>
+  <g fill="#2a1815">
+    <circle cx="302" cy="220" r="18"/>
+    <circle cx="421" cy="220" r="15"/>
+    <circle cx="452" cy="310" r="19"/>
+    <circle cx="332" cy="333" r="17"/>
+    <circle cx="264" cy="286" r="13"/>
+  </g>
+  <g fill="#f1d5aa">
+    <circle cx="375" cy="267" r="13"/>
+    <circle cx="496" cy="260" r="10"/>
+  </g>
+</svg>
