@@ -21,7 +21,54 @@ git push -u origin main
 4. Copy the connection string.
 5. Set `MONGODB_URI` in `backend/.env` on EC2.
 
-## 3. Backend on EC2
+## 3. Full-Stack App on EC2 Public IP
+
+This project can run on one EC2 instance:
+
+- Nginx serves `frontend/dist` on public port `80`.
+- Nginx proxies `/api` to Express on internal port `5000`.
+- PM2 keeps the Express backend alive after crashes and reboot.
+- MongoDB should be MongoDB Atlas, not installed publicly on EC2.
+
+After creating the EC2 instance and SSHing into it, run:
+
+```bash
+sudo apt update
+sudo apt install -y git
+cd /var/www
+sudo git clone https://github.com/balakumaris015-cloud/dheeras-brownie-and-cookies.git
+sudo chown -R ubuntu:ubuntu dheeras-brownie-and-cookies
+cd dheeras-brownie-and-cookies
+```
+
+Then deploy with one command. Replace both placeholders first:
+
+```bash
+MONGODB_URI='mongodb+srv://USER:PASSWORD@cluster0.mongodb.net/dheeras-bakery' \
+CLIENT_URL='http://YOUR_EC2_PUBLIC_IP' \
+bash scripts/ec2-deploy-fullstack.sh
+```
+
+Verify:
+
+```bash
+pm2 status
+curl http://localhost:5000/api/health
+curl http://YOUR_EC2_PUBLIC_IP
+sudo systemctl status nginx
+```
+
+To update later:
+
+```bash
+cd /var/www/dheeras-brownie-and-cookies
+git pull origin main
+MONGODB_URI='mongodb+srv://USER:PASSWORD@cluster0.mongodb.net/dheeras-bakery' \
+CLIENT_URL='http://YOUR_EC2_PUBLIC_IP' \
+bash scripts/ec2-deploy-fullstack.sh
+```
+
+## 4. Backend on EC2 Only
 
 Recommended beginner instance: `t3.micro` or `t4g.micro` Ubuntu 22.04.
 
