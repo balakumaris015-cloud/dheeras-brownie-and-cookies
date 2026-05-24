@@ -183,6 +183,12 @@ Read the full beginner-friendly guide:
 
 [deploy/AWS_DEPLOYMENT_GUIDE.md](deploy/AWS_DEPLOYMENT_GUIDE.md)
 
+Create an EC2 instance from local PowerShell after AWS CLI is configured:
+
+```powershell
+.\scripts\aws-create-ec2.ps1 -Region ap-south-1 -InstanceType t3.micro
+```
+
 Recommended architecture:
 
 - Frontend: AWS S3 static hosting + CloudFront CDN
