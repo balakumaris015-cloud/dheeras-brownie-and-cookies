@@ -14,6 +14,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: resolve(__dirname, "../.env") });
 
 const app = express();
+app.set("trust proxy", 1);
 
 const allowedOrigin = process.env.CLIENT_URL || "http://localhost:5173";
 
